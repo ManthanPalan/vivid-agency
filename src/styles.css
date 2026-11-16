@@ -26,3 +26,9 @@ footer .brand-logo{width:46px;height:46px}footer .wordmark>.brand-name{font-size
 .success>span{color:var(--mint)}
 select option{background:var(--navy);color:var(--ink)}
 @media(max-width:650px){.brand-logo{width:46px;height:46px}.wordmark>.brand-name{font-size:34px}.hero-logo{width:75%;height:82%;left:12.5%;top:8%}.tag-strategy{top:17%}.tag-creative{top:53%}footer .brand-logo{width:40px;height:40px}footer .wordmark>.brand-name{font-size:30px}}
+
+/* Approved Pinnacle Montessori artwork, displayed in its original proportions. */
+.client-logo{display:block;width:76px;height:76px;object-fit:contain;background:white;border-radius:5px}
+.pinnacle-logo{width:min(62%,280px);margin:0 0 25px;padding:14px;background:white;border-radius:8px}
+.pinnacle-logo img{display:block;width:100%;height:auto;object-fit:contain}
+@media(max-width:650px){.client-logo{width:64px;height:64px}.pinnacle-logo{width:min(64%,250px)}}
